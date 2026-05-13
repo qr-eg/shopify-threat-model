@@ -1,0 +1,16 @@
+{
+  "version": "2.6.2",
+  "summary": {
+    "title": "Shopify Checkout Pipeline Threat Model",
+    "owner": "Greg",
+    "description": "This threat model covers a checkout pipeline for Shopify that includes the following components: Customer browser, front - end web application, authentication services, shopping cart services, payment processing integration, order database, and external payment processor",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Aaron Markell",
+    "threatTop": 0
+  }
+}
