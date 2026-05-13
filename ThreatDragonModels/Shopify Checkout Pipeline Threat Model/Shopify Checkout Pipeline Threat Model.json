@@ -84,7 +84,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Cart Updates / Order Requests",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -98,7 +98,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Cart Updates / Order Requests"
             ],
             "id": "f38cf78f-0a93-42c8-98b9-67857ab3c189",
             "source": {
@@ -106,8 +106,60 @@
               "y": 270
             },
             "target": {
-              "x": 1150,
-              "y": 370
+              "cell": "98b3ab09-0d83-4604-860f-f7e641296f7f",
+              "port": "7bd1c5b4-8082-4f31-9861-68cbc515eb10"
+            },
+            "vertices": [
+              {
+                "x": 1135,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Check order status / Receipt Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Check order status / Receipt Data"
+            ],
+            "id": "263b2e0b-fc4e-4d9d-b3a8-8274dbcf876a",
+            "source": {
+              "x": 1010,
+              "y": 550
+            },
+            "target": {
+              "cell": "c0f69bcd-6972-4c63-89a1-445e2c598a1d",
+              "port": "8d4d807a-1aa0-4ffe-92b1-5779d6baebc7"
             }
           },
           {
@@ -229,8 +281,8 @@
           },
           {
             "position": {
-              "x": 690,
-              "y": 130
+              "x": 670,
+              "y": 120
             },
             "size": {
               "width": 390,
@@ -349,8 +401,8 @@
           },
           {
             "position": {
-              "x": 310,
-              "y": 450
+              "x": 440,
+              "y": 440
             },
             "size": {
               "width": 310,
