@@ -172,52 +172,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "4c649b9a-42a0-47a4-961d-66d4a5350f58",
-            "source": {
-              "cell": "9d371cb1-1d1e-45b3-a388-3995ced7d7f3",
-              "port": "7a6bf857-5932-407f-8662-4ead6fd908ef"
-            },
-            "target": {
-              "cell": "599840b9-ef45-4b93-ac22-a5f4f131b278",
-              "port": "61161a08-5fd7-42f3-a2a4-fff2e8ccb266"
-            }
-          },
-          {
             "position": {
               "x": 40,
               "y": -610
@@ -577,7 +531,7 @@
           {
             "position": {
               "x": 1400,
-              "y": -389.9999999999998
+              "y": -370
             },
             "size": {
               "width": 270,
@@ -817,7 +771,7 @@
           {
             "position": {
               "x": 1930,
-              "y": -349.9999999999998
+              "y": -330
             },
             "size": {
               "width": 220,
@@ -1146,6 +1100,58 @@
               "cell": "01d1e50d-23ef-4fd2-a516-d75792f239e5",
               "port": "95810466-ebad-46d8-9f5b-5a540b413511"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 29,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "6f2823b1-d5fc-447b-b7b4-5d0d3a995418",
+            "source": {
+              "x": 1910,
+              "y": -600
+            },
+            "target": {
+              "x": 1836,
+              "y": -380
+            },
+            "vertices": [
+              {
+                "x": 1836,
+                "y": -410
+              }
+            ]
           }
         ],
         "description": "This stride diagram covers spoofing, tampering, repudiation, information disclosure, denial of service, and elevation privelege"
