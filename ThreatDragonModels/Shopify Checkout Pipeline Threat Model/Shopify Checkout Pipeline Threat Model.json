@@ -83,6 +83,62 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Checkout status / Receipt data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Checkout status / Receipt data"
+            ],
+            "id": "41849506-ba65-450e-82d5-18b158b91f92",
+            "source": {
+              "cell": "96f9c038-a1b1-4351-86c5-6ef867b22267",
+              "port": "7a6bf857-5932-407f-8662-4ead6fd908ef"
+            },
+            "target": {
+              "cell": "9d371cb1-1d1e-45b3-a388-3995ced7d7f3",
+              "port": "7bd1c5b4-8082-4f31-9861-68cbc515eb10"
+            },
+            "vertices": [
+              {
+                "x": 1380,
+                "y": -490
+              },
+              {
+                "x": 1460,
+                "y": -470
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Cart Updates / Order Requests",
               "description": "",
               "outOfScope": false,
@@ -135,7 +191,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Checkout status / Receipt data",
+              "name": "Data Flow",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -149,27 +205,17 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Checkout status / Receipt data"
+              "Data Flow"
             ],
-            "id": "41849506-ba65-450e-82d5-18b158b91f92",
+            "id": "4c649b9a-42a0-47a4-961d-66d4a5350f58",
             "source": {
-              "cell": "96f9c038-a1b1-4351-86c5-6ef867b22267",
+              "cell": "9d371cb1-1d1e-45b3-a388-3995ced7d7f3",
               "port": "7a6bf857-5932-407f-8662-4ead6fd908ef"
             },
             "target": {
-              "cell": "9d371cb1-1d1e-45b3-a388-3995ced7d7f3",
-              "port": "7bd1c5b4-8082-4f31-9861-68cbc515eb10"
-            },
-            "vertices": [
-              {
-                "x": 1380,
-                "y": -490
-              },
-              {
-                "x": 1460,
-                "y": -470
-              }
-            ]
+              "cell": "599840b9-ef45-4b93-ac22-a5f4f131b278",
+              "port": "61161a08-5fd7-42f3-a2a4-fff2e8ccb266"
+            }
           },
           {
             "position": {
@@ -650,8 +696,8 @@
           },
           {
             "position": {
-              "x": 1930,
-              "y": -680
+              "x": 1910,
+              "y": -690
             },
             "size": {
               "width": 260,
@@ -770,8 +816,8 @@
           },
           {
             "position": {
-              "x": 1960,
-              "y": -340
+              "x": 1930,
+              "y": -349.9999999999998
             },
             "size": {
               "width": 220,
