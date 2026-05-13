@@ -18,6 +18,160 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User tries to log in ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User tries to log in "
+            ],
+            "id": "be67c7a1-e494-4199-a4cb-3f0649455010",
+            "source": {
+              "x": 630,
+              "y": -519
+            },
+            "target": {
+              "cell": "96f9c038-a1b1-4351-86c5-6ef867b22267",
+              "port": "7bd1c5b4-8082-4f31-9861-68cbc515eb10"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Cart Updates / Order Requests",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Cart Updates / Order Requests"
+            ],
+            "id": "ab93f54a-eaad-4a42-b6a2-58b6fb162e2d",
+            "source": {
+              "x": 1053,
+              "y": -410
+            },
+            "target": {
+              "cell": "9d371cb1-1d1e-45b3-a388-3995ced7d7f3",
+              "port": "61161a08-5fd7-42f3-a2a4-fff2e8ccb266"
+            },
+            "vertices": [
+              {
+                "x": 1130,
+                "y": -330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Checkout status / Receipt data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Checkout status / Receipt data"
+            ],
+            "id": "41849506-ba65-450e-82d5-18b158b91f92",
+            "source": {
+              "cell": "96f9c038-a1b1-4351-86c5-6ef867b22267",
+              "port": "7a6bf857-5932-407f-8662-4ead6fd908ef"
+            },
+            "target": {
+              "cell": "9d371cb1-1d1e-45b3-a388-3995ced7d7f3",
+              "port": "7bd1c5b4-8082-4f31-9861-68cbc515eb10"
+            },
+            "vertices": [
+              {
+                "x": 1380,
+                "y": -490
+              },
+              {
+                "x": 1460,
+                "y": -470
+              }
+            ]
+          },
+          {
             "position": {
               "x": 40,
               "y": -610
@@ -136,7 +290,7 @@
           },
           {
             "position": {
-              "x": 950,
+              "x": 900,
               "y": -620
             },
             "size": {
@@ -256,8 +410,8 @@
           },
           {
             "position": {
-              "x": 1410,
-              "y": -809.9999999999999
+              "x": 1405,
+              "y": -810
             },
             "size": {
               "width": 260,
@@ -496,8 +650,8 @@
           },
           {
             "position": {
-              "x": 2020,
-              "y": -620
+              "x": 1930,
+              "y": -680
             },
             "size": {
               "width": 260,
@@ -616,8 +770,8 @@
           },
           {
             "position": {
-              "x": 2040,
-              "y": -309.9999999999998
+              "x": 1960,
+              "y": -340
             },
             "size": {
               "width": 220,
@@ -853,6 +1007,98 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 27,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Authentication Request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Authentication Request"
+            ],
+            "id": "e0b44c48-65fb-4074-9288-1ae62e13a970",
+            "source": {
+              "x": 1060,
+              "y": -620
+            },
+            "target": {
+              "cell": "01d1e50d-23ef-4fd2-a516-d75792f239e5",
+              "port": "61161a08-5fd7-42f3-a2a4-fff2e8ccb266"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 28,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validate Oauth 2.0 Session ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Validate Oauth 2.0 Session "
+            ],
+            "id": "7eeb410a-fb2b-4c0e-899a-c38b2fa0c27d",
+            "source": {
+              "x": 1060,
+              "y": -620
+            },
+            "target": {
+              "cell": "01d1e50d-23ef-4fd2-a516-d75792f239e5",
+              "port": "95810466-ebad-46d8-9f5b-5a540b413511"
             }
           }
         ],
