@@ -28,8 +28,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "f46e90a8-dbc1-464a-a360-82dd241a9fef",
             "zIndex": -1,
+            "id": "f46e90a8-dbc1-464a-a360-82dd241a9fef",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -54,8 +54,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "2530bc91-7d52-4c13-a406-445328c09e5e",
             "zIndex": -1,
+            "id": "2530bc91-7d52-4c13-a406-445328c09e5e",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
@@ -84,8 +84,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "f4e5446d-8ff7-4c41-b23b-621caa1b5abf",
             "zIndex": -1,
+            "id": "f4e5446d-8ff7-4c41-b23b-621caa1b5abf",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\n",
@@ -118,8 +118,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "d9821b9d-857c-4927-bcf9-58ff92c12536",
             "zIndex": -1,
+            "id": "d9821b9d-857c-4927-bcf9-58ff92c12536",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -927,12 +927,6 @@
               "cell": "6fa2ab79-2485-44e1-9216-414bf905ce7f",
               "port": "6a2ad088-b6af-48ed-94d3-0adf8022c198"
             },
-            "vertices": [
-              {
-                "x": 1570,
-                "y": 280
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -1157,7 +1151,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 1570,
+                "y": 280
+              }
+            ]
           },
           {
             "position": {
@@ -2039,6 +2039,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -2122,7 +2123,6 @@
               ]
             },
             "id": "6fa2ab79-2485-44e1-9216-414bf905ce7f",
-            "zIndex": 22,
             "data": {
               "type": "tm.Actor",
               "name": "Third party payment integration",
@@ -2257,6 +2257,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -2340,7 +2341,6 @@
               ]
             },
             "id": "ba1c7101-fb24-4dbb-ac48-36a325d59608",
-            "zIndex": 25,
             "data": {
               "type": "tm.Store",
               "name": "Order Database",
@@ -2439,8 +2439,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "fec55725-16c0-4086-88be-bc7dbeb9ac42",
             "zIndex": 27,
+            "id": "fec55725-16c0-4086-88be-bc7dbeb9ac42",
             "data": {
               "type": "tm.Text",
               "name": "Internet Zone",
@@ -2463,8 +2463,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "13da9f16-de89-4371-b4ec-595eaf9a0339",
             "zIndex": 28,
+            "id": "13da9f16-de89-4371-b4ec-595eaf9a0339",
             "data": {
               "type": "tm.Text",
               "name": "DMZ",
@@ -2487,8 +2487,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "f5450165-3d9e-472f-a80a-00fc07d6725a",
             "zIndex": 29,
+            "id": "f5450165-3d9e-472f-a80a-00fc07d6725a",
             "data": {
               "type": "tm.Text",
               "name": "Internal Services",
@@ -2511,8 +2511,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "f995ae6c-8b5c-4d7c-ad8e-9bcb522a1a71",
             "zIndex": 30,
+            "id": "f995ae6c-8b5c-4d7c-ad8e-9bcb522a1a71",
             "data": {
               "type": "tm.Text",
               "name": "External Zone",
