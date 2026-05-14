@@ -468,36 +468,6 @@
             "target": {
               "cell": "2c0c50ce-b406-4891-b6ca-2128b9e2651b",
               "port": "019fff91-fe0d-4626-bbf7-ec54569f1cdc"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             }
           },
           {
@@ -636,6 +606,52 @@
             "target": {
               "cell": "9eb8a35e-fe42-4ddf-b63d-071c82c2c806",
               "port": "596dad54-5540-403a-8436-9997345cb495"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Stripe API / Transaction Details",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Stripe API / Transaction Details"
+            ],
+            "id": "b9096297-2171-4147-a246-bd981555f335",
+            "source": {
+              "cell": "ba1c7101-fb24-4dbb-ac48-36a325d59608",
+              "port": "c6680a1a-a1ca-4390-9076-75267b11195a"
+            },
+            "target": {
+              "cell": "2c0c50ce-b406-4891-b6ca-2128b9e2651b",
+              "port": "3917d4d7-d827-45aa-ba83-7baf23a87448"
             }
           },
           {
@@ -1590,6 +1606,176 @@
             "target": {
               "cell": "9eb8a35e-fe42-4ddf-b63d-071c82c2c806",
               "port": "596dad54-5540-403a-8436-9997345cb495"
+            }
+          },
+          {
+            "position": {
+              "x": 950,
+              "y": -170
+            },
+            "size": {
+              "width": 280,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "Order Database"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "cff6987b-20b8-41e3-bf4c-83bc628c2503"
+                },
+                {
+                  "group": "right",
+                  "id": "f343e9f6-781a-409b-a21e-03c13154bdab"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c6680a1a-a1ca-4390-9076-75267b11195a"
+                },
+                {
+                  "group": "left",
+                  "id": "70bbc19e-c313-4639-bb17-896f89058cc5"
+                }
+              ]
+            },
+            "id": "ba1c7101-fb24-4dbb-ac48-36a325d59608",
+            "zIndex": 25,
+            "data": {
+              "type": "tm.Store",
+              "name": "Order Database",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 26,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Shopping cart Api call",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Shopping cart Api call"
+            ],
+            "id": "d2bf4c65-a85d-432a-ae47-7dce69a36a44",
+            "source": {
+              "cell": "ba1c7101-fb24-4dbb-ac48-36a325d59608",
+              "port": "c6680a1a-a1ca-4390-9076-75267b11195a"
+            },
+            "target": {
+              "cell": "f4953edd-01f4-4924-8e54-63868f50b1cc",
+              "port": "3917d4d7-d827-45aa-ba83-7baf23a87448"
             }
           }
         ],
