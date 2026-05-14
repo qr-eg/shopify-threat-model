@@ -71,8 +71,8 @@
           },
           {
             "position": {
-              "x": 1340,
-              "y": -90
+              "x": 1355,
+              "y": -100
             },
             "size": {
               "width": 1140,
@@ -90,11 +90,13 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "23b2770e-7c43-40c1-a028-32e7b65d3496",
-                "b235fe2b-636a-4b5c-8c59-185dc74c153a"
+                "b235fe2b-636a-4b5c-8c59-185dc74c153a",
+                "b9c2556b-1953-4329-9460-f01abd026d09"
               ],
               "containedElements": [
                 "f9dd7c70-a9b8-445d-aac5-4cb75b264b15",
-                "7bd21fb8-9603-4296-a9c9-8062eb8bb6a4"
+                "7bd21fb8-9603-4296-a9c9-8062eb8bb6a4",
+                "7f206b81-7e92-40be-a524-ff58dda6ef22"
               ]
             }
           },
@@ -836,6 +838,54 @@
             "target": {
               "cell": "7bd21fb8-9603-4296-a9c9-8062eb8bb6a4",
               "port": "b44aad92-08c5-4346-857c-cc1c7f9b90b3"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Payment Response",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "2a107e31-f784-4de1-bf16-568cea26473b"
+              ]
+            },
+            "labels": [
+              "Payment Response"
+            ],
+            "id": "b9c2556b-1953-4329-9460-f01abd026d09",
+            "source": {
+              "x": 1990,
+              "y": 115
+            },
+            "target": {
+              "cell": "7f206b81-7e92-40be-a524-ff58dda6ef22",
+              "port": "d2478314-0c81-411c-a9bf-67a077b8e2fe"
             }
           },
           {
@@ -2203,7 +2253,7 @@
           },
           {
             "position": {
-              "x": 1780,
+              "x": 1770,
               "y": -19.9999999999997
             },
             "size": {
@@ -2319,6 +2369,179 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
+              "x": 2120,
+              "y": -39.9999999999997
+            },
+            "size": {
+              "width": 210,
+              "height": 240
+            },
+            "attrs": {
+              "text": {
+                "text": "Payment Process Integration"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "c8469b61-bee3-46d4-822c-72bea0bf5bb0"
+                },
+                {
+                  "group": "right",
+                  "id": "fe6adc1b-8e2d-446a-a43a-73a2ecb73af2"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8800ca99-815f-4e30-aa60-bd1f1bbb3817"
+                },
+                {
+                  "group": "left",
+                  "id": "d2478314-0c81-411c-a9bf-67a077b8e2fe"
+                }
+              ]
+            },
+            "id": "7f206b81-7e92-40be-a524-ff58dda6ef22",
+            "zIndex": 36,
+            "data": {
+              "type": "tm.Process",
+              "name": "Payment Process Integration",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 37,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "8c71daad-1aa0-497c-964d-c1378348c711",
+            "source": {
+              "x": 2030,
+              "y": -25
+            },
+            "target": {
+              "x": 2010,
+              "y": 30
             }
           }
         ],
