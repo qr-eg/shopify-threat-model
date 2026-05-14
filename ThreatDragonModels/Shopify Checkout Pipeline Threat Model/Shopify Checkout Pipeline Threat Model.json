@@ -104,6 +104,37 @@
           },
           {
             "position": {
+              "x": 1520,
+              "y": 60
+            },
+            "size": {
+              "width": 510,
+              "height": 750
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "d9821b9d-857c-4927-bcf9-58ff92c12536",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "23e24a88-19e6-46d7-b5ef-6ba195f6aab4",
+                "1660e111-6f8e-47b5-88c4-fce986729b96",
+                "3090f63d-9317-45e8-a005-f63091bc50a9"
+              ],
+              "containedElements": [
+                "9eb8a35e-fe42-4ddf-b63d-071c82c2c806",
+                "6fa2ab79-2485-44e1-9216-414bf905ce7f",
+                "f995ae6c-8b5c-4d7c-ad8e-9bcb522a1a71"
+              ]
+            }
+          },
+          {
+            "position": {
               "x": 50,
               "y": 470
             },
@@ -684,7 +715,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "d9821b9d-857c-4927-bcf9-58ff92c12536"
+              ]
             },
             "labels": [
               "Validates User Identity "
@@ -1640,7 +1673,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "d9821b9d-857c-4927-bcf9-58ff92c12536"
+              ]
             },
             "labels": [
               ""
@@ -1686,7 +1721,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "d9821b9d-857c-4927-bcf9-58ff92c12536"
+              ]
             },
             "labels": [
               ""
@@ -1940,6 +1977,30 @@
             "data": {
               "type": "tm.Text",
               "name": "Internal Services",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1730,
+              "y": 690
+            },
+            "size": {
+              "width": 120,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "External Zone"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "f995ae6c-8b5c-4d7c-ad8e-9bcb522a1a71",
+            "zIndex": 30,
+            "data": {
+              "type": "tm.Text",
+              "name": "External Zone",
               "hasOpenThreats": false
             }
           }
