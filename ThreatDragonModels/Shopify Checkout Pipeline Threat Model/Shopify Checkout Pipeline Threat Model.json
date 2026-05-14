@@ -19,6 +19,91 @@
         "cells": [
           {
             "position": {
+              "x": 10,
+              "y": 370
+            },
+            "size": {
+              "width": 260,
+              "height": 440
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "f46e90a8-dbc1-464a-a360-82dd241a9fef",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "04a7bc31-2dc3-40dd-b2d0-eb8d44a6dc9b",
+                "fec55725-16c0-4086-88be-bc7dbeb9ac42"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 435,
+              "y": 425
+            },
+            "size": {
+              "width": 220,
+              "height": 300
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "2530bc91-7d52-4c13-a406-445328c09e5e",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "13da9f16-de89-4371-b4ec-595eaf9a0339"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 659.9999999999952,
+              "y": -239.99999999999466
+            },
+            "size": {
+              "width": 850,
+              "height": 1150
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "f4e5446d-8ff7-4c41-b23b-621caa1b5abf",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "de7634aa-47b5-4814-93f6-0a95cd70b26c",
+                "a474953f-7978-4a6b-83f2-12a66f17b967",
+                "c21a2ac3-8934-4d84-8247-cbc622b59525",
+                "b9096297-2171-4147-a246-bd981555f335"
+              ],
+              "containedElements": [
+                "c163ba2a-d832-46ad-bec2-c98631088838",
+                "b32b8b6d-1c83-45bf-9046-334a377cd3c8",
+                "f4953edd-01f4-4924-8e54-63868f50b1cc",
+                "ba1c7101-fb24-4dbb-ac48-36a325d59608",
+                "f5450165-3d9e-472f-a80a-00fc07d6725a"
+              ]
+            }
+          },
+          {
+            "position": {
               "x": 50,
               "y": 470
             },
@@ -269,7 +354,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "f4e5446d-8ff7-4c41-b23b-621caa1b5abf"
+              ]
             },
             "labels": [
               "Data Flow"
@@ -315,7 +402,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "f4e5446d-8ff7-4c41-b23b-621caa1b5abf"
+              ]
             },
             "labels": [
               "HTTps Request for Login"
@@ -501,7 +590,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "f4e5446d-8ff7-4c41-b23b-621caa1b5abf"
+              ]
             },
             "labels": [
               "Authenticates User"
@@ -639,7 +730,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "f4e5446d-8ff7-4c41-b23b-621caa1b5abf"
+              ]
             },
             "labels": [
               "Stripe API / Transaction Details"
@@ -1161,7 +1254,7 @@
           },
           {
             "position": {
-              "x": 633,
+              "x": 660,
               "y": 140
             },
             "size": {
@@ -1611,7 +1704,7 @@
           {
             "position": {
               "x": 950,
-              "y": -170
+              "y": -180
             },
             "size": {
               "width": 280,
@@ -1776,6 +1869,78 @@
             "target": {
               "cell": "f4953edd-01f4-4924-8e54-63868f50b1cc",
               "port": "3917d4d7-d827-45aa-ba83-7baf23a87448"
+            }
+          },
+          {
+            "position": {
+              "x": 83.75,
+              "y": 390
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Internet Zone"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "fec55725-16c0-4086-88be-bc7dbeb9ac42",
+            "zIndex": 27,
+            "data": {
+              "type": "tm.Text",
+              "name": "Internet Zone",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 489,
+              "y": 650
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "DMZ"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "13da9f16-de89-4371-b4ec-595eaf9a0339",
+            "zIndex": 28,
+            "data": {
+              "type": "tm.Text",
+              "name": "DMZ",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 680,
+              "y": -220.00000000000003
+            },
+            "size": {
+              "width": 130,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "Internal Services"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "f5450165-3d9e-472f-a80a-00fc07d6725a",
+            "zIndex": 29,
+            "data": {
+              "type": "tm.Text",
+              "name": "Internal Services",
+              "hasOpenThreats": false
             }
           }
         ],
