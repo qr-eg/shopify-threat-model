@@ -92,8 +92,16 @@
                 "23b2770e-7c43-40c1-a028-32e7b65d3496"
               ],
               "containedElements": [
-                "f9dd7c70-a9b8-445d-aac5-4cb75b264b15"
+                "f9dd7c70-a9b8-445d-aac5-4cb75b264b15",
+                "7bd21fb8-9603-4296-a9c9-8062eb8bb6a4"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -682,12 +690,18 @@
             "id": "23b2770e-7c43-40c1-a028-32e7b65d3496",
             "source": {
               "x": 1095,
-              "y": 102
+              "y": 92
             },
             "target": {
               "cell": "f9dd7c70-a9b8-445d-aac5-4cb75b264b15",
               "port": "110c98fc-5c1b-420f-8330-0c85a1ffbbea"
-            }
+            },
+            "vertices": [
+              {
+                "x": 1230,
+                "y": 30
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -727,8 +741,8 @@
             ],
             "id": "3dd894ba-82cd-452d-9889-31a39ab6a750",
             "source": {
-              "x": 1370,
-              "y": 170
+              "x": 1360,
+              "y": 90
             },
             "target": {
               "x": 1100,
@@ -1980,12 +1994,12 @@
           },
           {
             "position": {
-              "x": 1370,
-              "y": 60
+              "x": 1355,
+              "y": -14.999999999999702
             },
             "size": {
-              "width": 180,
-              "height": 210
+              "width": 210,
+              "height": 190
             },
             "attrs": {
               "text": {
@@ -2086,6 +2100,126 @@
             "data": {
               "type": "tm.Process",
               "name": "Authentication Service\n",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1355,
+              "y": 175.00000000000034
+            },
+            "size": {
+              "width": 210,
+              "height": 200
+            },
+            "attrs": {
+              "text": {
+                "text": "Shopping cart and order service"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3f69f2cc-5ba4-4119-9ebd-37023d4c9f26"
+                },
+                {
+                  "group": "right",
+                  "id": "7f8113b1-493f-45d9-b81c-9295568b7fde"
+                },
+                {
+                  "group": "bottom",
+                  "id": "b44aad92-08c5-4346-857c-cc1c7f9b90b3"
+                },
+                {
+                  "group": "left",
+                  "id": "110c98fc-5c1b-420f-8330-0c85a1ffbbea"
+                }
+              ]
+            },
+            "id": "7bd21fb8-9603-4296-a9c9-8062eb8bb6a4",
+            "zIndex": 35,
+            "data": {
+              "type": "tm.Process",
+              "name": "Shopping cart and order service",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
