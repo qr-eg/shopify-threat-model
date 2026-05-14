@@ -71,12 +71,12 @@
           },
           {
             "position": {
-              "x": 1315.9999999999995,
-              "y": -19.999999999999716
+              "x": 1340,
+              "y": -90
             },
             "size": {
               "width": 1140,
-              "height": 400
+              "height": 650
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -89,19 +89,14 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "23b2770e-7c43-40c1-a028-32e7b65d3496"
+                "23b2770e-7c43-40c1-a028-32e7b65d3496",
+                "4533dee9-7fed-44eb-8bc0-f7297941ab97"
               ],
               "containedElements": [
                 "f9dd7c70-a9b8-445d-aac5-4cb75b264b15",
-                "7bd21fb8-9603-4296-a9c9-8062eb8bb6a4"
+                "7bd21fb8-9603-4296-a9c9-8062eb8bb6a4",
+                "033ebd76-f63a-4279-8c3a-296a07935b60"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -748,6 +743,107 @@
               "x": 1100,
               "y": 180
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Cart / Order Details\n",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Cart / Order Details\n"
+            ],
+            "id": "9707e2f4-4813-4687-8607-633610d47a0f",
+            "source": {
+              "cell": "7bd21fb8-9603-4296-a9c9-8062eb8bb6a4",
+              "port": "3f69f2cc-5ba4-4119-9ebd-37023d4c9f26"
+            },
+            "target": {
+              "cell": "f9dd7c70-a9b8-445d-aac5-4cb75b264b15",
+              "port": "b44aad92-08c5-4346-857c-cc1c7f9b90b3"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Cart Data / Session Token\n",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "2a107e31-f784-4de1-bf16-568cea26473b"
+              ]
+            },
+            "labels": [
+              "Cart Data / Session Token\n"
+            ],
+            "id": "4533dee9-7fed-44eb-8bc0-f7297941ab97",
+            "source": {
+              "x": 1530,
+              "y": 150
+            },
+            "target": {
+              "cell": "7bd21fb8-9603-4296-a9c9-8062eb8bb6a4",
+              "port": "7f8113b1-493f-45d9-b81c-9295568b7fde"
+            },
+            "vertices": [
+              {
+                "x": 1565,
+                "y": 270
+              }
+            ]
           },
           {
             "position": {
@@ -2115,7 +2211,7 @@
           {
             "position": {
               "x": 1355,
-              "y": 175.00000000000034
+              "y": 360
             },
             "size": {
               "width": 210,
@@ -2220,6 +2316,126 @@
             "data": {
               "type": "tm.Process",
               "name": "Shopping cart and order service",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1789,
+              "y": 80.00000000000054
+            },
+            "size": {
+              "width": 220,
+              "height": 290
+            },
+            "attrs": {
+              "text": {
+                "text": "Payment Process Integration"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3f69f2cc-5ba4-4119-9ebd-37023d4c9f26"
+                },
+                {
+                  "group": "right",
+                  "id": "7f8113b1-493f-45d9-b81c-9295568b7fde"
+                },
+                {
+                  "group": "bottom",
+                  "id": "b44aad92-08c5-4346-857c-cc1c7f9b90b3"
+                },
+                {
+                  "group": "left",
+                  "id": "110c98fc-5c1b-420f-8330-0c85a1ffbbea"
+                }
+              ]
+            },
+            "id": "033ebd76-f63a-4279-8c3a-296a07935b60",
+            "zIndex": 36,
+            "data": {
+              "type": "tm.Process",
+              "name": "Payment Process Integration",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
